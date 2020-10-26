@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+.container {
+    max-width: 600px;
+    width: 80%;
+    margin: 200px auto;
+}
+
+#input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 2rem;
+    text-align: right;
+    background-color: dodgerblue;
+    color: inherit;
+    transition: all .2s ease-in-out;
+}
+
+#input:hover {
+    border: 1px solid #bbb;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.row button {
+    width: 90px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 4px 10px 4px;
+    color: inherit;
+    cursor: pointer;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.num, .clear {
+    background-color: #000;
+}
+
+#add {
+    background-color: rgb(124, 51, 25);
+}
+
+#minus {
+    background-color: rgb(122, 62, 201);
+}
+
+#multiply {
+    background-color: rgb(116, 153, 116);
+}
+
+#divide {
+    background-color: green;
+}
+
+.equal {
+    background-color: red;
+}
+
+
+
+
+
+  
